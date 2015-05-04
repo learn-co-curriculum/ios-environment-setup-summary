@@ -37,6 +37,49 @@ $ gcc
 
 You also might get something about accepting terms of service from Apple, if you do, go through that process.
 
+### CocoaPods
+
+CocoaPods is what we use to import third party code into our projects. To make sure it is installed, type `pod` into your terminal. You will hopefully get some help text that looks something like this:
+
+```bash
+Usage:
+
+    $ pod COMMAND
+
+      CocoaPods, the Cocoa library package manager.
+
+Commands:
+
+    + init       Generate a Podfile for the current directory.
+    + install    Install project dependencies to Podfile.lock versions
+    + ipc        Inter-process communication
+    + lib        Develop pods
+    + list       List pods
+    + outdated   Show outdated project dependencies
+    + plugins    Show available CocoaPods plugins
+    + repo       Manage spec-repositories
+    + search     Searches for pods
+    + setup      Setup the CocoaPods environment
+    + spec       Manage pod specs
+    + trunk      Interact with the CocoaPods API (e.g. publishing new specs)
+    + try        Try a Pod!
+    + update     Update outdated project dependencies and create new Podfile.lock
+
+Options:
+
+    --silent     Show nothing
+    --version    Show the version of the tool
+    --verbose    Show more debugging information
+    --no-ansi    Show output without ANSI codes
+    --help       Show help banner of specified command
+```
+
+As long as you don't get a bash error, you are fine. Bash errors look like this:
+
+```bash
+-bash: pod: command not found
+```
+
 ### File Directory
 
 The changes here are simple. The Environmentalizer adds a "Development" folder to the root of your home directory. This gives you a place to organize your code.
