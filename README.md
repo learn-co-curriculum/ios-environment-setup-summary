@@ -9,6 +9,8 @@ If you've gone through setup on the Learn OSX application, your machine has alre
 
 The purpose of this document is to provide you with a summary of how your machine has been setup.
 
+If you haven't run the Learn OSX application yet, you can find it [here](https://learn.co/tools).
+
 ### XCode
 
 XCode, the Apple Development Environment, should have already been installed on your machine by you (it's very difficult to automate that). You can verify this by looking in your `Applications` directory and finding the program file.
