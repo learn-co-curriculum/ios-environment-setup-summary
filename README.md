@@ -1,13 +1,8 @@
----
-tags: setup, environment, bash
-languages: objc, bash
----
-
 ## iOS Environment Setup Summary
 
-If you've gone through setup on the Learn OSX application, your machine has already been setup for iOS development. The setup is based on [Environmentalizer](https://github.com/flatiron-school/environmentalizer), a script we use at Flatiron.
+If you've gone through setup on the Learn OSX application, your machine has already been set up for iOS development. The setup is based on [Environmentalizer](https://github.com/flatiron-school/environmentalizer), a script we use at Flatiron.
 
-The purpose of this document is to provide you with a summary of how your machine has been setup.
+The purpose of this document is to provide you with a summary of how your machine has been set up.
 
 If you haven't run the Learn OSX application yet, you can find it [here](https://learn.co/tools).
 
@@ -30,14 +25,14 @@ _Note: The `$` connotates a command meant to be typed into your prompt. You do n
 
 ![GCC](https://dl.dropboxusercontent.com/s/9m0nbrhd5szrjbk/2015-05-03%20at%208.22%20PM.png)
 
-Any output about `no input files` is fine, what you don't want to see is something like this:
+Any output about `no input files` is fine. What you don't want to see is something like this:
 
 ```bash
 $ gcc
 -bash: gcc: command not found
 ```
 
-You also might get something about accepting terms of service from Apple, if you do, go through that process.
+You also might get something about accepting terms of service from Apple. If you do, go through that process.
 
 ### CocoaPods
 
@@ -89,9 +84,9 @@ The changes here are simple. The Environmentalizer adds a "Development" folder t
 Here are a few tips for setting up your directories:
 
 * When creating directories, except for directories in `~` (the home directory), always use lowercase directory names for ease of access.
-* When creating directory names it is preferable to use a "-" instead of a "_" to denote spaces.
+* When creating directory names it is preferable to use a "-" instead of a "_" to denote spaces (hyphen case and not snake case).
 * Keep all code in one place so you can access it easily.
-* Make sure you have another directory to keep your resources and other things that are related to code, but aren't code here you might keep your local copy of [The markdown cheetsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links) or other documentation.
+* Make sure you have another directory to keep your resources and other things which are code-related, but not actual code itself. Here you might keep your local copy of [The markdown cheetsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links) or other documentation.
 * Remember to build your folder structure so you can easily navigate in and out of your project directories. 
 
 ### .bash_profile
@@ -104,9 +99,9 @@ And finally, you can also build functions to simplify common workflows.
 
 The Environmentalizer installs the [Flatiron Bash Profile](https://github.com/flatiron-school/dotfiles/blob/master/bash_profile) for you!
 
-Within that bash profile are comments that explain each part. **Make sure to read them!** You can always comment sections in/out to see what they do and how they effect your prompt, shell, and environment.
+Within that bash profile are comments that explain each part. **Make sure to read them!** You can always comment sections in or out to see what they do and how they effect your prompt, shell, and environment.
 
-Just remember, to activate a change in the dotfile, you must **reload your shell**. You can do that via opening a new tab or typing `source .bash_profile` (from the `~` directory).
+Just remember: to activate a change in the dotfile, you must **reload your shell**. You can do that via opening a new tab or typing `source .bash_profile` (from the `~` directory).
 
 You know if your `bash_profile` was setup correctly if your prompt has the Flatiron Love.
 
@@ -117,9 +112,9 @@ You know if your `bash_profile` was setup correctly if your prompt has the Flati
 
 ### Homebrew
 
-[Homebrew](http://brew.sh/) is a package manager for OSX. Not only will it help you install packages via commands like `brew install wget` but it will also organize the packages you install and add the appropriate locations to your path. As if that weren't enough, Homebrew also ensures that your system configurations are up to date. Commands like `brew doctor` will help you gauge the health of your system and often provide suggestions for how to fix problems.
+[Homebrew](http://brew.sh/) is a package manager for OSX. Not only will it help you install packages via commands like `brew install wget` but it will also organize the packages you install and add the appropriate locations to your path. As if that weren't already enough, Homebrew also ensures that your system configurations are up to date. Commands like `brew doctor` will help you gauge the health of your system and often provide suggestions for how to fix problems.
 
-You should be able to type in: `brew doctor` and get output from homebrew. Warning and errors are fine, as long as you don't see:
+You should be able to type in: `brew doctor` and get output from homebrew. Warnings and errors are fine as long as you don't see:
 
 ```bash
 $ brew doctor
@@ -135,7 +130,7 @@ $ git --version
 git version 2.3.5
 ```
 
-Any version of git is fine, again, you just don't want to see:
+Any version of git is fine; again, you just don't want to see:
 
 ```bash
 $ git --version
@@ -144,11 +139,11 @@ $ git --version
 
 #### The Learn Submitter
 
-We've installed a ruby gem called `learn-xcpretty` for interacting with `learn.co` from XCode. Generally, you only interact with `learn-xcpretty` through XCode, but to test things out type `learn-xcpretty` in your terminal. As long as you don't get the following bash error `learn-xcpretty: command not found.` you're all set.
+We've installed a ruby gem called `learn-xcpretty` for interacting with `learn.co` from XCode. Generally, you only interact with `learn-xcpretty` through XCode, but to test things out type `learn-xcpretty` in your terminal. As long as you don't get the following bash error `learn-xcpretty: command not found.`, you're all set.
 
 #### Sublime Text
 
-[Sublime Text](http://www.sublimetext.com/) is the text editor we use at The Flatiron School. The Environmentalizer installs Sublime Text with a package manager so you can install cool themes and useful add-ons. Make sure you take the time to set it up to your liking, because you will be spending a lot of time with it! You'll see Sublime Text in your `Applications` directory.
+[Sublime Text](http://www.sublimetext.com/) is the text editor we use at The Flatiron School. The Environmentalizer installs Sublime Text with a package manager so you can install cool themes and useful add-ons. Make sure you take the time to set it up to your liking because you will be spending a lot of time with it! You'll see Sublime Text in your `Applications` directory.
 
 ![Sublime Text](https://dl.dropboxusercontent.com/s/wenp87iskz1gz9j/2015-05-03%20at%208.36%20PM.png)
 
@@ -163,11 +158,11 @@ Remember to look through all of these files to see exactly what settings each co
 
 ### Symlinks
 
-Symlink stands for "Symbolic Link". A symlink is represented as a text string that the is automatically interpreted by the operating system as as a path to another file or directory. In other words a symlink is like a shortcut to another location. One will allow you to type something like `desktop` in bash to `cd` from any file directory to the desktop. It can also be used as a command, for example you will often find yourself typing `subl .` to open up the current file directory in Sublime Text. This is because the text `desktop` is symbolically linked to the desktop path ("~/Desktop") and `subl` is symbolically linked to the location on your computer where Sublime Text is stored. Some symlinks will be installed by Homebrew and others will be installed by the Environmentalizer. However, to really make your computer your own, look into creating your own!
+Symlink stands for "Symbolic Link". A symlink is represented as a text string that is automatically interpreted by the operating system as as a path to another file or directory. In other words, a symlink is like a shortcut to another location. One will allow you to type something like `desktop` in bash to `cd` from any file directory to the desktop. It can also be used as a command. For example, you will often find yourself typing `subl .` to open up the current file directory in Sublime Text. This is because the text `desktop` is symbolically linked to the desktop path ("~/Desktop") and `subl` is symbolically linked to the location on your computer where Sublime Text is stored. Some symlinks will be installed by Homebrew and others will be installed by the Environmentalizer. However, to really make your computer your own, look into creating your own!
 
 ### SSH Key
 
-SSH stands for "Secure Shell". It is a command interface for communicating with secure servers. SSH keys serve as a means to identify yourself to a SSH server. To set up proper SSH Key Authentication you need a public key (like the one you got from GitHub) and a private key (which will be generated when the Environmentalizer runs). The private key on your computer will allow you to access the Github server with the public key without having to enter a password. You can test this with:
+SSH stands for "Secure Shell". It is a command interface for communicating with secure servers. SSH keys serve as a means to identify yourself to an SSH server. To set up a proper SSH Key Authentication you need a public key (like the one you got from GitHub) and a private key (which will be generated when the Environmentalizer runs). The private key on your computer will allow you to access the Github server with the public key without having to enter a password. You can test this with:
 
 ```bash
 $ ssh git@github.com
