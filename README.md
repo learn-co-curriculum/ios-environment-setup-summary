@@ -79,7 +79,7 @@ As long as you don't get a bash error, you are fine. Bash errors look like this:
 
 ### File Directory
 
-The changes here are simple. The Environmentalizer adds a "Development" folder to the root of your home directory. This gives you a place to organize your code.
+The changes here are simple. The Learn App adds a "Development" folder to the root of your home directory. This gives you a place to organize your code.
 
 Here are a few tips for setting up your directories:
 
@@ -97,7 +97,7 @@ You can also create aliases for common commands so that they are shorter to use.
 
 And finally, you can also build functions to simplify common workflows.
 
-The Environmentalizer installs the [Flatiron Bash Profile](https://github.com/flatiron-school/dotfiles/blob/master/bash_profile) for you!
+The Learn App installs the [Flatiron Bash Profile](https://github.com/flatiron-school/dotfiles/blob/master/bash_profile) for you!
 
 Within that bash profile are comments that explain each part. **Make sure to read them!** You can always comment sections in or out to see what they do and how they effect your prompt, shell, and environment.
 
@@ -143,7 +143,7 @@ We've installed a ruby gem called `learn-xcpretty` for interacting with `learn.c
 
 #### Sublime Text
 
-[Sublime Text](http://www.sublimetext.com/) is the text editor we use at The Flatiron School. The Environmentalizer installs Sublime Text with a package manager so you can install cool themes and useful add-ons. Make sure you take the time to set it up to your liking because you will be spending a lot of time with it! You'll see Sublime Text in your `Applications` directory.
+[Sublime Text](http://www.sublimetext.com/) is the text editor we use at The Flatiron School. The Learn App installs Sublime Text with a package manager so you can install cool themes and useful add-ons. Make sure you take the time to set it up to your liking because you will be spending a lot of time with it! You'll see Sublime Text in your `Applications` directory.
 
 ![Sublime Text](https://dl.dropboxusercontent.com/s/wenp87iskz1gz9j/2015-05-03%20at%208.36%20PM.png)
 
@@ -158,11 +158,11 @@ Remember to look through all of these files to see exactly what settings each co
 
 ### Symlinks
 
-Symlink stands for "Symbolic Link". A symlink is represented as a text string that is automatically interpreted by the operating system as as a path to another file or directory. In other words, a symlink is like a shortcut to another location. One will allow you to type something like `desktop` in bash to `cd` from any file directory to the desktop. It can also be used as a command. For example, you will often find yourself typing `subl .` to open up the current file directory in Sublime Text. This is because the text `desktop` is symbolically linked to the desktop path ("~/Desktop") and `subl` is symbolically linked to the location on your computer where Sublime Text is stored. Some symlinks will be installed by Homebrew and others will be installed by the Environmentalizer. However, to really make your computer your own, look into creating your own!
+Symlink stands for "Symbolic Link". A symlink is represented as a text string that is automatically interpreted by the operating system as as a path to another file or directory. In other words, a symlink is like a shortcut to another location. One will allow you to type something like `desktop` in bash to `cd` from any file directory to the desktop. It can also be used as a command. For example, you will often find yourself typing `subl .` to open up the current file directory in Sublime Text. This is because the text `desktop` is symbolically linked to the desktop path ("~/Desktop") and `subl` is symbolically linked to the location on your computer where Sublime Text is stored. Some symlinks will be installed by Homebrew and others will be installed by the Learn App. However, to really make your computer your own, look into creating your own!
 
 ### SSH Key
 
-SSH stands for "Secure Shell". It is a command interface for communicating with secure servers. SSH keys serve as a means to identify yourself to an SSH server. To set up a proper SSH Key Authentication you need a public key (like the one you got from GitHub) and a private key (which will be generated when the Environmentalizer runs). The private key on your computer will allow you to access the Github server with the public key without having to enter a password. You can test this with:
+SSH stands for "Secure Shell". It is a command interface for communicating with secure servers. SSH keys serve as a means to identify yourself to an SSH server. To set up a proper SSH Key Authentication you need a public key (like the one you got from GitHub) and a private key (which will be generated when the Learn App runs). The private key on your computer will allow you to access the Github server with the public key without having to enter a password. You can test this with:
 
 ```bash
 $ ssh git@github.com
