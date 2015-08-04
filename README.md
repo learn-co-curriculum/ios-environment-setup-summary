@@ -1,6 +1,6 @@
 ## iOS Environment Setup Summary
 
-If you've gone through setup on the Learn OSX application, your machine has already been set up for iOS development. The setup is based on [Environmentalizer](https://github.com/flatiron-school/environmentalizer), a script we use at Flatiron.
+If you've gone through setup on the Learn OSX application, your machine has already been set up for iOS development.
 
 The purpose of this document is to provide you with a summary of how your machine has been set up.
 
