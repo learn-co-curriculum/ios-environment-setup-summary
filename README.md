@@ -136,11 +136,6 @@ Any version of git is fine; again, you just don't want to see:
 $ git --version
 -bash: git: command not found
 ```
-
-#### The Learn Submitter
-
-We've installed a ruby gem called `learn-xcpretty` for interacting with `learn.co` from XCode. Generally, you only interact with `learn-xcpretty` through XCode, but to test things out type `learn-xcpretty` in your terminal. As long as you don't get the following bash error `learn-xcpretty: command not found.`, you're all set.
-
 #### Sublime Text
 
 [Sublime Text](http://www.sublimetext.com/) is the text editor we use at The Flatiron School. The Learn App installs Sublime Text with a package manager so you can install cool themes and useful add-ons. Make sure you take the time to set it up to your liking because you will be spending a lot of time with it! You'll see Sublime Text in your `Applications` directory.
