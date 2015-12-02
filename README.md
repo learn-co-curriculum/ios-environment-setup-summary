@@ -165,3 +165,5 @@ Hi aviflombaum! You've successfully authenticated, but GitHub does not provide s
 ```
 
 If you get anything else, there was a problem setting up your SSH keys.
+
+<a href='https://learn.co/lessons/ios-environment-setup-summary' data-visibility='hidden'>View this lesson on Learn.co</a>
